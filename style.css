@@ -1,16 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
-    margin: 0%;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
+}
 body{
-    height: 100vh;
-    background-image: url(Acer_Wallpaper_02_3840x2400.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     
-
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    text-align: center;
+    padding-top: 200px;
+}
+.conteiner{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
 }
 
+ul{
+    list-style: none;
+}
+
+footer{
+    padding-top: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffff;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '' ;
+    position:absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbb;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+.footer-col ul li a:hover{
+    color: #ffff;
+    padding-left: 10px;
+}
+.footer-col .sociais a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #ffff;
+    transition: all 0.5s ease;
+}
+.footer-col .sociais a:hover{
+    color: #24262b;
+    background-color: #ffff;
+}
+ 
 
